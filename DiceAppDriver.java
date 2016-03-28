@@ -1,3 +1,8 @@
+/*
+*		Author: Paul McElroy
+*		Code built on TextDemoDriver.java provided by Dr. Gibbons and Chris Seascholtz
+*/
+
 import javax.swing.JFrame;
 
 

@@ -1,3 +1,8 @@
+/*
+*		Author: Paul McElroy
+*		Code built on TextDemo.java provided by Dr. Gibbons and Chris Seascholtz
+*/
+
 import javax.swing.*;
 import java.awt.event.*;
 import java.awt.Component;
