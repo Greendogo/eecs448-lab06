@@ -1,8 +1,7 @@
 import javax.swing.*;
 import java.awt.event.*;
 import java.awt.Component;
-// import java.awt.GridLayout;
-import java.awt.BorderLayout;
+import java.awt.GridLayout;
 
 public class DiceApp
 {
@@ -18,14 +17,13 @@ public class DiceApp
 		text = new JTextField(3);//3 cols, not 20 chars
 		label = new JLabel("Enter the number of sides");
 
-    panel.add(new BorderLayout());
 		//Load the listener
 		button.addActionListener(buttonListener());
 
 		//load the panel
-		panel.add(text, BorderLayout.PAGE_START);
-		panel.add(button, BorderLayout.CENTER);
-		panel.add(label, BorderLayout.LINE_END);
+		panel.add(text);
+		panel.add(button);
+		panel.add(label);
 	}
 
 	public Component getContent()
